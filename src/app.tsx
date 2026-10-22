@@ -27,7 +27,7 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <TooltipProvider>
-      <App />
+      <TooltipProvider><App /></TooltipProvider>
     </TooltipProvider>
   </React.StrictMode>
 );
